@@ -1,6 +1,7 @@
 body {
 margin: 0;
 padding-top: 800px;
+text-align: center;
 
 }
 .profile {
@@ -59,15 +60,17 @@ color: greenyellow;
 }
 .menu{
     list-style:none;  
-position: absolute;
-top: 10px;
-right: 30px;
+position: fixed;
+margin-top: 0px;
+top: 0px;
 z-index: 10;
 cursor: pointer;
+width: 100%;
+
 
 }
 .link {
-float: left;
+    display: inline;
 padding-top: 5px;
 padding-left: 9px;
 padding-right: 9px;
@@ -75,4 +78,34 @@ padding-bottom: 5px;
 font-family: fantasy;
 font-size: 20px;
 
+}
+.link:hover {
+background-color: aqua;
+font-size: 25px;
+text-decoration: underline;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+   color: aquamarine; 
+}
+#videos {
+    margin-top: 50px;
+}
+#writing {
+    margin-top: 50px;
+    font-size: 30px;
+}
+#work {
+    margin-top:50px ;
+}
+#contact {
+    margin-top: 50px;
+}
+.contact_1 h2 {
+display: inline;
 }
