@@ -109,3 +109,17 @@ a {
 .contact_1 h2 {
 display: inline;
 }
+.gameimg {
+    height: 220px;
+    width: 220px;
+    margin-left: 20px;
+}
+#apps {
+    background-color: aqua;
+}
+#games {
+    background-color: aquamarine;
+}
+#chat_bot {
+    background-color: blanchedalmond;
+}
